@@ -1,0 +1,63 @@
+* {
+    /*resets page defaults*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  a {
+    text-decoration: none; /* removes underlines from a tags */
+  }
+
+  a:visited { 
+    text-decoration: none;
+    color: #F9FAF8;
+   }
+
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    width: 100%;
+    background-color: rgb(33, 41, 54);
+  }
+
+  .logo {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .navitem {
+    padding: 10px;
+  }
+
+  .navlinks {
+    list-style-type: none;
+    font-size: 18px;
+    display: flex;
+    color: #F9FAF8;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .section1{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .text1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-family: 'Roboto', sans-serif;
+  }
+
+ .text2 {
+    font-family: 'Roboto', sans-serif;
+ }
+
+ .button1{
+    font-family: 'Roboto', sans-serif;
+ }
